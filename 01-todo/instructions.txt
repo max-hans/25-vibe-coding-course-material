@@ -1,0 +1,22 @@
+// instructions.txt
+# Instructions / documentation
+
+When creating new features adhere to the following guidelines.
+
+## Tech Stack
+
+ParcelJS bundler
+Vanilla JavaScript (no frameworks)
+TailwindCSS v4 with daisyUI components
+Inline utility classes only (no custom CSS)
+
+## Structure
+
+Single HTML file
+Main JS file
+Bun as package manager
+
+## Guidelines
+
+Keep code simple and modular
+Use only daisyUI components and Tailwind utility classes
