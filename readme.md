@@ -1,6 +1,34 @@
 # Summer Semester 25: "Vibe Coding"
 
+![cover](/assets/cover.png)
+
 This guide will help you get set up quickly with all the necessary tools and code to start working on your assignments.
+
+## Contents
+
+- [Summer Semester 25: "Vibe Coding"](#summer-semester-25-vibe-coding)
+
+**2. Getting Started**
+
+- [Download the Repository](#1-download-the-repository)
+- [Install Required Tools](#2-install-required-tools)
+- [Project Setup](#3-project-setup)
+
+**3. Platform-Specific Information**
+
+- [Windows-Specific Notes](#windows-specific-notes)
+
+**4. Documentation**
+
+- [Project Structure](#documentation)
+- [Working with Cursor](#when-working-with-cursor)
+- [Working with External AI Tools](#when-working-with-ai-tools-outside-of-the-editor-like-chatgpt)
+
+**5. Resources**
+
+- [AI Tools](#ai-tools)
+- [Specific Technologies](#spezifisch)
+- [General Resources](#general)
 
 ## Getting Started
 
@@ -103,3 +131,22 @@ The projects structure is documented in [01-todo/instructions.txt](01-todo/instr
 ### When working with AI tools outside of the editor (like ChatGPT)…
 
 …copy paste the contents at the beginning of your chat.
+
+## Resources
+
+### AI Tools
+
+- Cursor [https://www.cursor.com/](https://www.cursor.com/)
+- Lovable [https://lovable.dev/](https://lovable.dev/)
+- v0 [https://v0.dev/](https://v0.dev/)
+
+### Spezifisch
+
+- TailwindCSS: [https://tailwindcss.com/](https://tailwindcss.com/)
+- DaisyUI: [https://daisyui.com/](https://tailwindcss.com/)
+
+### General
+
+- MDN Web Docs: [https://developer.mozilla.org](https://tailwindcss.com/)
+- W3Schools: [https://www.w3schools.com](https://tailwindcss.com/)
+- CSS-Tricks: [https://css-tricks.com](https://tailwindcss.com/)
