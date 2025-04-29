@@ -83,6 +83,8 @@ First, ensure you have Windows Subsystem for Linux (WSL) installed:
 3. Restart your computer
 4. Open WSL terminal and run: `curl -fsSL https://bun.sh/install | bash`
 
+->  Use the new Terminal from the Windows App Store -> https://apps.microsoft.com/detail/9n0dx20hk701?hl=de-de&gl=US
+
 #### Cursor Installation
 
 Cursor is an AI-powered code editor that will help with your projects.
