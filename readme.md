@@ -70,10 +70,6 @@ Windowssuche -> "PowerShell"
 Bun is our JavaScript runtime and package manager.
 
 
-**Install NodeJS**
-
-https://nodejs.org/en/download
--> Installer runterladen und installieren
 
 **For macOS/Linux:**
 
@@ -90,6 +86,13 @@ First, ensure you have Windows Subsystem for Linux (WSL) installed:
 4. Open WSL terminal and run: `curl -fsSL https://bun.sh/install | bash`
 
 ->  Use the new Terminal from the Windows App Store -> https://apps.microsoft.com/detail/9n0dx20hk701?hl=de-de&gl=US
+
+
+
+### Install NodeJS
+
+https://nodejs.org/en/download
+-> Installer runterladen und installieren
 
 #### Cursor Installation
 
