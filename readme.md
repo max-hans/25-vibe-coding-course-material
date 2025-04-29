@@ -69,6 +69,11 @@ Windowssuche -> "PowerShell"
 
 Bun is our JavaScript runtime and package manager.
 
+
+**Install NodeJS**
+
+https://nodejs.org/en/download
+
 **For macOS/Linux:**
 
 ```bash
