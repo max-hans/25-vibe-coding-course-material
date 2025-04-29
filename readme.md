@@ -73,6 +73,7 @@ Bun is our JavaScript runtime and package manager.
 **Install NodeJS**
 
 https://nodejs.org/en/download
+-> Installer runterladen und installieren
 
 **For macOS/Linux:**
 
