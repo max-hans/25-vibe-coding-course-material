@@ -85,19 +85,14 @@ Cursor is an AI-powered code editor that will help with your projects.
 
 #### Todo-App
 
+Open the folder "01-todo" with cursor
+Open new Terminal
+Enter line by line followed by "Enter":
+
 ```bash
-# Open the folder "01-todo" with cursor
-# Open new Terminal
+npm install
 
-# Enter:
-
-# Install dependencies
-bun install
-
-# Run development server
-bun start
-
-# This might take a second to load
+npm start
 ```
 
 ## Windows-Specific Notes
