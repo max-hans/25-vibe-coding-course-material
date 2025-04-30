@@ -65,29 +65,7 @@ Windows
 Windowssuche -> "PowerShell"
 ```
 
-#### Bun Installation
-
-Bun is our JavaScript runtime and package manager.
-
-
-
-**For macOS/Linux:**
-
-```bash
-curl -fsSL https://bun.sh/install | bash
-```
-
-**For Windows:**
-First, ensure you have Windows Subsystem for Linux (WSL) installed:
-
-1. Open PowerShell as Administrator
-2. Run: `wsl --install`
-3. Restart your computer
-4. Open WSL terminal and run: `curl -fsSL https://bun.sh/install | bash`
-
-->  Use the new Terminal from the Windows App Store -> https://apps.microsoft.com/detail/9n0dx20hk701?hl=de-de&gl=US
-
-
+**Important: you dont have to install bun anymore**
 
 ### Install NodeJS
 
