@@ -65,23 +65,12 @@ Windows
 Windowssuche -> "PowerShell"
 ```
 
-#### Bun Installation
+**Important: you dont have to install bun anymore**
 
-Bun is our JavaScript runtime and package manager.
+### Install NodeJS
 
-**For macOS/Linux:**
-
-```bash
-curl -fsSL https://bun.sh/install | bash
-```
-
-**For Windows:**
-First, ensure you have Windows Subsystem for Linux (WSL) installed:
-
-1. Open PowerShell as Administrator
-2. Run: `wsl --install`
-3. Restart your computer
-4. Open WSL terminal and run: `curl -fsSL https://bun.sh/install | bash`
+https://nodejs.org/en/download
+-> Installer runterladen und installieren
 
 #### Cursor Installation
 
@@ -96,19 +85,14 @@ Cursor is an AI-powered code editor that will help with your projects.
 
 #### Todo-App
 
+Open the folder "01-todo" with cursor
+Open new Terminal
+Enter line by line followed by "Enter":
+
 ```bash
-# Open the folder "01-todo" with cursor
-# Open new Terminal
+npm install
 
-# Enter:
-
-# Install dependencies
-bun install
-
-# Run development server
-bun start
-
-# This might take a second to load
+npm start
 ```
 
 ## Windows-Specific Notes
