@@ -14,10 +14,11 @@ Inline utility classes only (no custom CSS)
 
 Single HTML file
 Main JS file
-Bun as package manager
+NPM as package manager
 
 ## Guidelines
 
 Keep code simple and modular
 Use only daisyUI components and Tailwind utility classes
-Do NOT change the version of tailwind at ANY COST
+
+Do NOT change the version of tailwind at ANY COST!!!
