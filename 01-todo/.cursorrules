@@ -20,3 +20,4 @@ Bun as package manager
 
 Keep code simple and modular
 Use only daisyUI components and Tailwind utility classes
+Do NOT change the version of tailwind at ANY COST

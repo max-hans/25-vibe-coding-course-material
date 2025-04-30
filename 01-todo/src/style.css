@@ -1,3 +1,187 @@
-@import "tailwindcss";
-@plugin "@tailwindcss/typography";
-@plugin "daisyui";
+/* Amazon-like Todo App Styles */
+body {
+  background-color: #e6f3ff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #0066cc;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #004d99;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+textarea,
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #99ccff;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #004d99;
+}
+
+.empty-list {
+  color: #004d99;
+  text-align: center;
+  padding: 20px;
+  font-style: italic;
+}
+
+hr {
+  border: 1px solid #99ccff;
+  margin: 20px 0;
+}
+
+/* Todo List Styles */
+#list {
+  margin-top: 18px;
+}
+
+.todo-item {
+  position: relative;
+  padding: 18px 22px;
+  margin-bottom: 16px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 1px 4px rgba(34, 47, 62, 0.07);
+  font-size: 18px;
+  border: 1px solid #d5d9d9;
+}
+
+.todo-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.todo-text {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.todo-description {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid #eaeded;
+  color: #37475a;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.todo-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.delete-btn {
+  background-color: #fff;
+  color: #b12704;
+  border: 1.5px solid #b12704;
+  font-size: 14px;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background 0.2s, color 0.2s;
+}
+
+.delete-btn:hover {
+  background-color: #b12704;
+  color: #fff;
+}
+
+.complete-btn {
+  background-color: #232f3e;
+  color: #fff;
+  font-size: 14px;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-weight: bold;
+  border: none;
+  transition: background 0.2s, color 0.2s;
+}
+
+.complete-btn:hover {
+  background-color: #37475a;
+  color: #febd69;
+}
+
+/* Priority indicators */
+.priority-low {
+  border-left: 5px solid #007185;
+}
+
+.priority-medium {
+  border-left: 5px solid #febd69;
+}
+
+.priority-high {
+  border-left: 5px solid #b12704;
+}
+
+/* Completed task style */
+.completed {
+  opacity: 0.6;
+  text-decoration: line-through;
+}
+
+/* Empty list message */
+.empty-list {
+  text-align: center;
+  padding: 20px;
+  color: #767676;
+  font-style: italic;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(34, 47, 62, 0.07);
+  border: 1px solid #d5d9d9;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .container {
+    padding: 16px;
+    margin: 10px;
+  }
+  .form-group {
+    flex-direction: column;
+  }
+  select {
+    width: 100%;
+  }
+}
